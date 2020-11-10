@@ -8,6 +8,7 @@ using RestCode_WebApplication.Domain.Models;
 using RestCode_WebApplication.Domain.Services;
 using RestCode_WebApplication.Extensions;
 using RestCode_WebApplication.Resources;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace RestCode_WebApplication.Controllers
 {
@@ -22,7 +23,7 @@ namespace RestCode_WebApplication.Controllers
             _consultantService = consultantService;
             _mapper = mapper;
         }
-
+        
         [HttpGet]
         public async Task<IEnumerable<Consultant>> GetAllAsync()
         {

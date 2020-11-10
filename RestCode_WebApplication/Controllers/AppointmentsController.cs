@@ -10,8 +10,6 @@ using RestCode_WebApplication.Extensions;
 using RestCode_WebApplication.Resources;
 using Swashbuckle.AspNetCore.Annotations;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace RestCode_WebApplication.Controllers
 {
     [ApiController]

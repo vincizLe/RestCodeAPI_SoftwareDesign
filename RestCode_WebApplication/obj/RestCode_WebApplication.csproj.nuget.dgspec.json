@@ -1,27 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Documents\\GitHub\\RestCodeAPI_SoftwareDesign\\RestCode_WebApplication\\RestCode_WebApplication.csproj": {}
+    "/Users/nuevo/Documents/GitHub/RestCodeAPI_SoftwareDesign/RestCode_WebApplication/RestCode_WebApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Documents\\GitHub\\RestCodeAPI_SoftwareDesign\\RestCode_WebApplication\\RestCode_WebApplication.csproj": {
+    "/Users/nuevo/Documents/GitHub/RestCodeAPI_SoftwareDesign/RestCode_WebApplication/RestCode_WebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\RestCodeAPI_SoftwareDesign\\RestCode_WebApplication\\RestCode_WebApplication.csproj",
+        "projectUniqueName": "/Users/nuevo/Documents/GitHub/RestCodeAPI_SoftwareDesign/RestCode_WebApplication/RestCode_WebApplication.csproj",
         "projectName": "RestCode_WebApplication",
-        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\RestCodeAPI_SoftwareDesign\\RestCode_WebApplication\\RestCode_WebApplication.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\RestCodeAPI_SoftwareDesign\\RestCode_WebApplication\\obj\\",
+        "projectPath": "/Users/nuevo/Documents/GitHub/RestCodeAPI_SoftwareDesign/RestCode_WebApplication/RestCode_WebApplication.csproj",
+        "packagesPath": "/Users/nuevo/.nuget/packages/",
+        "outputPath": "/Users/nuevo/Documents/GitHub/RestCodeAPI_SoftwareDesign/RestCode_WebApplication/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/nuevo/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -85,6 +86,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -93,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
         }
       }
     }

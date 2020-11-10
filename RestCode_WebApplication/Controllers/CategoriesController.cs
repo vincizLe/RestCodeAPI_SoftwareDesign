@@ -4,6 +4,7 @@ using RestCode_WebApplication.Domain.Models;
 using RestCode_WebApplication.Domain.Services;
 using RestCode_WebApplication.Extensions;
 using RestCode_WebApplication.Resources;
+using Swashbuckle.AspNetCore.Annotations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +23,7 @@ namespace RestCode_WebApplication.Controllers
             _categoryService = categoryService;
             _mapper = mapper;
         }
-
+        
         [HttpGet]
         public async Task<IEnumerable<CategoryResource>> GetAllAsync()
         {

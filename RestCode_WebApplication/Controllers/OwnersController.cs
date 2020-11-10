@@ -4,6 +4,7 @@ using RestCode_WebApplication.Domain.Models;
 using RestCode_WebApplication.Domain.Services;
 using RestCode_WebApplication.Extensions;
 using RestCode_WebApplication.Resources;
+using Swashbuckle.AspNetCore.Annotations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +23,12 @@ namespace RestCode_WebApplication.Controllers
             _ownerService = ownerService;
             _mapper = mapper;
         }
-
+        [SwaggerOperation(
+            Summary = "List all owners",
+            Description = "List of Owners",
+            OperationId = "ListAllOwners",
+            Tags = new[] { "Owners" })]
+        [SwaggerResponse(200, "List of owners", typeof(IEnumerable<CommentResource>))]
         [HttpGet]
         public async Task<IEnumerable<OwnerResource>> GetAllAsync()
         {
