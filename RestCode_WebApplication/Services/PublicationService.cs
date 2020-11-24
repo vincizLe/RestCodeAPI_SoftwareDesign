@@ -53,6 +53,8 @@ namespace RestCode_WebApplication.Services
             if (existingPublication == null)
                 return new PublicationResponse("Publication not found");
             existingPublication.Description = publication.Description;
+            existingPublication.PublishedDate = publication.PublishedDate;
+
 
             try
             {

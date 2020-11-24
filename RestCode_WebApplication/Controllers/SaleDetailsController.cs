@@ -19,8 +19,8 @@ namespace RestCode_WebApplication.Controllers
 
         public Sale_DetailsController(ISaleDetailService saleDetailService, IMapper mapper)
         {
-            _saleDetailService = saleDetailService;
             _mapper = mapper;
+            _saleDetailService = saleDetailService;
         }
 
         [HttpGet]

@@ -62,6 +62,8 @@ namespace RestCode_WebApplication.Services
                 return new ProductResponse("Product not found");
 
             existingProduct.Name = Product.Name;
+            existingProduct.Price = Product.Price;
+
 
             try
             {

@@ -1,0 +1,8 @@
+C:\Users\user\Documents\GitHub\RestCodeAPI_SoftwareDesign\StringExtensions\bin\Debug\netcoreapp3.0\StringExtensions.deps.json
+C:\Users\user\Documents\GitHub\RestCodeAPI_SoftwareDesign\StringExtensions\bin\Debug\netcoreapp3.0\StringExtensions.dll
+C:\Users\user\Documents\GitHub\RestCodeAPI_SoftwareDesign\StringExtensions\bin\Debug\netcoreapp3.0\StringExtensions.pdb
+C:\Users\user\Documents\GitHub\RestCodeAPI_SoftwareDesign\StringExtensions\obj\Debug\netcoreapp3.0\StringExtensions.csprojAssemblyReference.cache
+C:\Users\user\Documents\GitHub\RestCodeAPI_SoftwareDesign\StringExtensions\obj\Debug\netcoreapp3.0\StringExtensions.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\RestCodeAPI_SoftwareDesign\StringExtensions\obj\Debug\netcoreapp3.0\StringExtensions.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\RestCodeAPI_SoftwareDesign\StringExtensions\obj\Debug\netcoreapp3.0\StringExtensions.dll
+C:\Users\user\Documents\GitHub\RestCodeAPI_SoftwareDesign\StringExtensions\obj\Debug\netcoreapp3.0\StringExtensions.pdb

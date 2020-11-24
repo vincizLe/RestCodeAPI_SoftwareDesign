@@ -58,7 +58,9 @@ namespace RestCode_WebApplication.Services
             if (existingComment == null)
                 return new CommentResponse("Comment not found");
             existingComment.Description = comment.Description;
-
+            existingComment.PublicationId = comment.PublicationId;
+            existingComment.OwnerId = comment.OwnerId;
+            existingComment.ConsultantId = comment.ConsultantId;
             try
             {
                 _commentRepository.Update(existingComment);

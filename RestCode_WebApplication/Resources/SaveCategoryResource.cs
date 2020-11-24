@@ -10,7 +10,7 @@ namespace RestCode_WebApplication.Resources
     {
         [Required]
         [MaxLength(30)]
-        public string CategoryName { get; set; }
+        public string Name { get; set; }
 
         [Required]
         public int RestaurantId { get; set; }

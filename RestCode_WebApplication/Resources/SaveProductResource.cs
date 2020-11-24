@@ -10,10 +10,10 @@ namespace RestCode_WebApplication.Resources
     {
         [Required]
         [MaxLength(50)]
-        public string ProductName { get; set; }
+        public string Name { get; set; }
 
         [Required]
-        public double ProductPrice { get; set; }
+        public double Price { get; set; }
 
         [Required]
         public double CategoryId { get; set; }

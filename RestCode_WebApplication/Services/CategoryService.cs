@@ -61,6 +61,7 @@ namespace RestCode_WebApplication.Services
                 return new CategoryResponse("Category not found");
 
             existingCategory.Name = category.Name;
+            existingCategory.RestaurantId = category.RestaurantId;
 
             try
             {

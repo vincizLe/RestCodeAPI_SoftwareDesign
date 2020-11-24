@@ -57,6 +57,8 @@ namespace RestCode_WebApplication.Services
                 return new RestaurantResponse("Restaurant not found");
 
             existingRestaurant.Name = restaurant.Name;
+            existingRestaurant.Address = restaurant.Address;
+            existingRestaurant.CellPhoneNumber = restaurant.CellPhoneNumber;
 
             try
             {

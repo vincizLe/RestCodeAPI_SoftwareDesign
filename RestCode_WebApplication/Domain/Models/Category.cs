@@ -13,5 +13,6 @@ namespace RestCode_WebApplication.Domain.Models
         public Restaurant Restaurant { get; set; }
 
         public IList<Product> Products { get; set; } = new List<Product>();
+       
     }
 }

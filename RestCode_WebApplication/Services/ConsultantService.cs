@@ -57,6 +57,11 @@ namespace RestCode_WebApplication.Services
 
             existingConsultant.UserName = consultant.UserName;
             existingConsultant.Password = consultant.Password;
+            existingConsultant.FirstName = consultant.FirstName;
+            existingConsultant.LastName = consultant.LastName;
+            existingConsultant.Cellphone = consultant.Cellphone;
+            existingConsultant.Email = consultant.Email;
+            existingConsultant.LinkedinLink = consultant.LinkedinLink;
 
             try
             {

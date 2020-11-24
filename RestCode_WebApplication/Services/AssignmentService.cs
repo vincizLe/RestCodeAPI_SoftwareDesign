@@ -56,6 +56,8 @@ namespace RestCode_WebApplication.Services
                 return new AssignmentResponse("Assignment not found");
 
             existingAssignment.State = assignment.State;
+            existingAssignment.RestaurantId = assignment.RestaurantId;
+            existingAssignment.ConsultantId = assignment.ConsultantId;
 
             try
             {

@@ -13,6 +13,7 @@ namespace RestCode_WebApplication.Domain.Models
         public int CellPhoneNumber { get; set; }
         public int OwnerId { get; set; }
         public Owner Owner { get; set; }
+        public int RestaurantId { get; set; }
 
         public IList<Category>Categories{ get; set; } = new List<Category>();
         public IList<Assignment> Assignments { get; set; } = new List<Assignment>();

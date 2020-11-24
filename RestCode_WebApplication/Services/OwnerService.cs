@@ -56,6 +56,12 @@ namespace RestCode_WebApplication.Services
                 return new OwnerResponse("Owner not found");
 
             existingOwner.Ruc = owner.Ruc;
+            existingOwner.FirstName = owner.FirstName;
+            existingOwner.UserName = owner.UserName;
+            existingOwner.Password = owner.Password;
+            existingOwner.LastName = owner.LastName;
+            existingOwner.Cellphone = owner.Cellphone;
+            existingOwner.Email = owner.Email;
 
             try
             {
