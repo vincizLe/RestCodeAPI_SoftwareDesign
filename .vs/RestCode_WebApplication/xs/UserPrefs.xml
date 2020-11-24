@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{B9E284FF-AED6-4097-99A6-8F8654F7E521}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RestCode_WebApplication/Persistence/Repositories/UnitOfWork.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RestCode_WebApplication/Properties/launchSettings.json">
     <Files>
       <File FileName="RestCode_WebApplication/Controllers/AppointmentsController.cs" Line="29" Column="8" />
       <File FileName="RestCode_WebApplication/Controllers/AssignmentsController.cs" />
@@ -12,7 +12,7 @@
       <File FileName="RestCode_WebApplication/Domain/Services/IAssignmentService.cs" Line="1" Column="1" />
       <File FileName="RestCode_WebApplication/Domain/Models/Appointment.cs" Line="1" Column="1" />
       <File FileName="RestCode_WebApplication/Domain/Models/Consultancy.cs" Line="1" Column="1" />
-      <File FileName="RestCode_WebApplication/Domain/Persistence/Contexts/AppDbContext.cs" Line="229" Column="32" />
+      <File FileName="RestCode_WebApplication/Domain/Persistence/Contexts/AppDbContext.cs" Line="61" Column="53" />
       <File FileName="RestCode_WebApplication/Mapping/ModelToResourceProfile.cs" Line="1" Column="1" />
       <File FileName="RestCode_WebApplication/Mapping/ResourceToModelProfile.cs" Line="1" Column="1" />
       <File FileName="RestCode_WebApplication/Resources/SaveAppointmentResource.cs" Line="1" Column="1" />
@@ -50,11 +50,11 @@
               <Node name="Extensions" expanded="True" />
               <Node name="Mapping" expanded="True" />
               <Node name="Persistence" expanded="True">
-                <Node name="Repositories" expanded="True">
-                  <Node name="UnitOfWork.cs" selected="True" />
-                </Node>
+                <Node name="Repositories" expanded="True" />
               </Node>
-              <Node name="Properties" expanded="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="launchSettings.json" selected="True" />
+              </Node>
               <Node name="Resources" expanded="True" />
               <Node name="Services" expanded="True" />
             </Node>

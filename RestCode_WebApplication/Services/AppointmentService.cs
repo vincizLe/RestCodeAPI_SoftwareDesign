@@ -20,6 +20,7 @@ namespace RestCode_WebApplication.Services
             _unitOfWork = unitOfWork;
         }
 
+
         public async Task<IEnumerable<Appointment>> ListAsync()
         {
             return await _appointmentRepository.ListAsync();

@@ -39,7 +39,7 @@ namespace RestCode_WebApplication
             {
                 //options.UseInMemoryDatabase("supermarket-api-in-memory");
                 //options.UseMySQL("server=localhost;database=supermarket;user=root;password=password");
-                options.UseMySQL(Configuration.GetConnectionString("DefaultConnection"));
+                options.UseMySQL(Configuration.GetConnectionString("MySQLConnection"));
             });
 
             services.AddScoped<ICategoryRepository, CategoryRepository>();
